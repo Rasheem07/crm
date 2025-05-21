@@ -166,7 +166,7 @@ export default function SegmentsPage() {
           <Button variant="outline" size="icon">
             <Filter className="h-4 w-4" />
           </Button>
-          <Link href="/crm/segments/create">
+          <Link href="/segments/create">
             <Button>
               <Plus className="mr-2 h-4 w-4" /> Create Segment
             </Button>
@@ -305,7 +305,7 @@ export default function SegmentsPage() {
                         750 Customers
                       </Badge>
                     </div>
-                    <Link href="/crm/segments/create">
+                    <Link href="/segments/create">
                       <Button size="sm" className="mt-3 bg-violet-600 hover:bg-violet-700">
                         Create Segment
                       </Button>

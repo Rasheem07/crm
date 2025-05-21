@@ -32,39 +32,39 @@ const suggestions = [
   {
     category: "Customers",
     items: [
-      { name: "All Customers", href: "/crm/customers" },
-      { name: "VIP Clients", href: "/crm/vip-clients" },
-      { name: "Customer Journey", href: "/crm/customer-journey" },
-      { name: "Behavioral Analysis", href: "/crm/behavioral-analysis" },
+      { name: "All Customers", href: "/customers" },
+      { name: "VIP Clients", href: "/vip-clients" },
+      { name: "Customer Journey", href: "/customer-journey" },
+      { name: "Behavioral Analysis", href: "/behavioral-analysis" },
     ],
   },
   {
     category: "Marketing",
     items: [
-      { name: "Campaigns", href: "/crm/campaigns" },
-      { name: "Email Marketing", href: "/crm/email-marketing" },
-      { name: "Social Media", href: "/crm/social-media" },
-      { name: "WhatsApp", href: "/crm/whatsapp" },
-      { name: "Templates", href: "/crm/templates" },
+      { name: "Campaigns", href: "/campaigns" },
+      { name: "Email Marketing", href: "/email-marketing" },
+      { name: "Social Media", href: "/social-media" },
+      { name: "WhatsApp", href: "/whatsapp" },
+      { name: "Templates", href: "/templates" },
     ],
   },
   {
     category: "Analytics",
     items: [
       { name: "Dashboard", href: "/crm" },
-      { name: "Reports", href: "/crm/reports" },
-      { name: "ROI Tracking", href: "/crm/roi-tracking" },
-      { name: "Predictive Insights", href: "/crm/predictive-insights" },
+      { name: "Reports", href: "/reports" },
+      { name: "ROI Tracking", href: "/roi-tracking" },
+      { name: "Predictive Insights", href: "/predictive-insights" },
     ],
   },
   {
     category: "Settings",
     items: [
-      { name: "User Preferences", href: "/crm/settings/user-preferences" },
-      { name: "Business Details", href: "/crm/settings/business-details" },
-      { name: "API Integrations", href: "/crm/settings/api-integrations" },
-      { name: "Social Handles", href: "/crm/settings/social-handles" },
-      { name: "Compliance", href: "/crm/settings/compliance" },
+      { name: "User Preferences", href: "/settings/user-preferences" },
+      { name: "Business Details", href: "/settings/business-details" },
+      { name: "API Integrations", href: "/settings/api-integrations" },
+      { name: "Social Handles", href: "/settings/social-handles" },
+      { name: "Compliance", href: "/settings/compliance" },
     ],
   },
 ]
@@ -95,21 +95,21 @@ export function Search() {
           // Map entity to appropriate route
           switch (entity) {
             case "customers":
-              return "/crm/customers"
+              return "/customers"
             case "campaigns":
-              return "/crm/campaigns"
+              return "/campaigns"
             case "analytics":
-              return "/crm/reports"
+              return "/reports"
             case "settings":
-              return "/crm/settings"
+              return "/settings"
             case "compliance":
-              return "/crm/settings/compliance"
+              return "/settings/compliance"
             case "notifications":
-              return "/crm/notifications"
+              return "/notifications"
             case "whatsapp":
-              return "/crm/whatsapp"
+              return "/whatsapp"
             case "templates":
-              return "/crm/templates"
+              return "/templates"
             default:
               return "/crm"
           }
@@ -118,7 +118,7 @@ export function Search() {
     }
 
     // Default to search results page if no matches
-    return `/crm/search?q=${encodeURIComponent(query)}`
+    return `/search?q=${encodeURIComponent(query)}`
   }
 
   const handleSelect = (href: string) => {

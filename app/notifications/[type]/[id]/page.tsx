@@ -117,7 +117,7 @@ export default function NotificationDetailPage() {
         <h1 className="text-2xl font-bold mb-4">Notification not found</h1>
         <p className="mb-6">The notification you're looking for doesn't exist or has been removed.</p>
         <Button asChild>
-          <Link href="/crm/notifications">Back to notifications</Link>
+          <Link href="/notifications">Back to notifications</Link>
         </Button>
       </div>
     )
@@ -275,7 +275,7 @@ export default function NotificationDetailPage() {
                   {notification.relatedItems.map((item, index) => (
                     <Link
                       key={index}
-                      href={`/crm/${item.type}s/${item.id}`}
+                      href={`/${item.type}s/${item.id}`}
                       className="flex items-center p-2 rounded-md hover:bg-muted transition-colors"
                     >
                       <div

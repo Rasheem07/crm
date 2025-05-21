@@ -21,13 +21,13 @@ export function Header() {
           <Search />
         </div>
         <div className="flex items-center gap-4">
-          <Link href="/crm/notifications" className="relative">
+          <Link href="/notifications" className="relative">
             <Bell className="h-5 w-5" />
             <Badge className="absolute -top-1 -right-1 h-4 w-4 p-0 flex items-center justify-center text-[10px] bg-primary text-primary-foreground">
               5
             </Badge>
           </Link>
-          <Link href="/crm/settings">
+          <Link href="/settings">
             <Settings className="h-5 w-5" />
           </Link>
           <DropdownMenu>

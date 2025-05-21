@@ -52,7 +52,7 @@ export default function CreateSegmentPage() {
   return (
     <div className="flex-1 p-8">
       <div className="flex items-center gap-2 mb-6">
-        <Link href="/crm/segments">
+        <Link href="/segments">
           <Button variant="ghost" size="icon">
             <ArrowLeft className="h-4 w-4" />
           </Button>
@@ -213,7 +213,7 @@ export default function CreateSegmentPage() {
               </CardContent>
               <CardFooter className="flex justify-between">
                 <Button variant="outline" asChild>
-                  <Link href="/crm/segments">Cancel</Link>
+                  <Link href="/segments">Cancel</Link>
                 </Button>
                 <Button type="submit">Create Segment</Button>
               </CardFooter>

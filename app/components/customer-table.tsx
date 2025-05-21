@@ -218,7 +218,7 @@ export function CustomerTable({ filter, searchTerm = "" }: CustomerTableProps) {
                         </AvatarFallback>
                       </Avatar>
                       <div className="space-y-1">
-                        <Link href={`/crm/customers/${customer.id}`} className="font-medium hover:underline">
+                        <Link href={`/customers/${customer.id}`} className="font-medium hover:underline">
                           {customer.name}
                         </Link>
                         <div className="text-xs text-muted-foreground">{customer.email}</div>

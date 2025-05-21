@@ -172,7 +172,7 @@ export default function ContentManagerPage() {
             <Filter className="h-4 w-4" />
           </Button>
           <Button asChild>
-            <Link href="/crm/content-manager/create">
+            <Link href="/content-manager/create">
               <Plus className="mr-2 h-4 w-4" /> Create Content
             </Link>
           </Button>

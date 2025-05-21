@@ -159,7 +159,7 @@ export default function CampaignsPage() {
             <Filter className="h-4 w-4" />
           </Button>
           <Button asChild>
-            <Link href="/crm/campaigns/create">
+            <Link href="/campaigns/create">
               <Plus className="mr-2 h-4 w-4" /> Create Campaign
             </Link>
           </Button>

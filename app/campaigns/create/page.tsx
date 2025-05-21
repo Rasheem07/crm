@@ -63,7 +63,7 @@ export default function CreateCampaignPage() {
   return (
     <div className="flex-1 p-8">
       <div className="flex items-center gap-2 mb-6">
-        <Link href="/crm/campaigns">
+        <Link href="/campaigns">
           <Button variant="ghost" size="icon">
             <ArrowLeft className="h-4 w-4" />
           </Button>

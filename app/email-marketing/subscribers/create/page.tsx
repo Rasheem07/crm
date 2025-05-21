@@ -28,7 +28,7 @@ export default function CreateSubscriberListPage() {
     <div className="flex-1 p-8">
       <div className="flex items-center mb-6">
         <Button variant="ghost" size="icon" asChild className="mr-2">
-          <Link href="/crm/email-marketing">
+          <Link href="/email-marketing">
             <ArrowLeft className="h-4 w-4" />
           </Link>
         </Button>
@@ -195,7 +195,7 @@ export default function CreateSubscriberListPage() {
             </Button>
           ) : (
             <Button variant="outline" asChild>
-              <Link href="/crm/email-marketing">Cancel</Link>
+              <Link href="/email-marketing">Cancel</Link>
             </Button>
           )}
           {selectedTab !== "settings" ? (

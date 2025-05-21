@@ -60,7 +60,7 @@ export default function TemplatesPage() {
           <p className="text-muted-foreground mt-1">Manage your reusable message templates</p>
         </div>
         <div className="flex items-center gap-2">
-          <Link href="/crm/templates/create">
+          <Link href="/templates/create">
             <Button>
               <Plus className="mr-2 h-4 w-4" /> Create Template
             </Button>

@@ -50,121 +50,121 @@ const navigationItems = [
       },
       {
         name: "Customers",
-        path: "/crm/customers",
+        path: "/customers",
         icon: Users,
         keywords: ["clients", "users", "contacts", "people", "profiles"],
       },
       {
         name: "Campaigns",
-        path: "/crm/campaigns",
+        path: "/campaigns",
         icon: Calendar,
         keywords: ["marketing", "ads", "promotions", "events", "schedule"],
       },
       {
         name: "Email Marketing",
-        path: "/crm/email-marketing",
+        path: "/email-marketing",
         icon: Mail,
         keywords: ["newsletter", "emails", "broadcasts", "autoresponders"],
       },
       {
         name: "Social Media",
-        path: "/crm/social-media",
+        path: "/social-media",
         icon: MessageSquare,
         keywords: ["facebook", "twitter", "instagram", "linkedin", "posts", "social"],
       },
       {
         name: "Content Manager",
-        path: "/crm/content-manager",
+        path: "/content-manager",
         icon: FileText,
         keywords: ["blog", "articles", "media", "resources", "documents"],
       },
       {
         name: "Analytics",
-        path: "/crm/analytics",
+        path: "/analytics",
         icon: PieChart,
         keywords: ["reports", "statistics", "data", "metrics", "performance"],
       },
       {
         name: "Notifications",
-        path: "/crm/notifications",
+        path: "/notifications",
         icon: Bell,
         keywords: ["alerts", "messages", "updates", "inbox", "activity"],
       },
       {
         name: "Settings",
-        path: "/crm/settings",
+        path: "/settings",
         icon: Settings,
         keywords: ["preferences", "configuration", "options", "account"],
       },
       {
         name: "Compliance",
-        path: "/crm/settings/compliance",
+        path: "/settings/compliance",
         icon: Shield,
         keywords: ["gdpr", "ccpa", "privacy", "legal", "data protection", "regulations"],
       },
       {
         name: "WhatsApp",
-        path: "/crm/whatsapp",
+        path: "/whatsapp",
         icon: Smartphone,
         keywords: ["messaging", "chat", "communication", "whatsapp business"],
       },
       {
         name: "ROI Tracking",
-        path: "/crm/roi-tracking",
+        path: "/roi-tracking",
         icon: TrendingUp,
         keywords: ["return on investment", "performance", "metrics", "profitability"],
       },
       {
         name: "Customer Journey",
-        path: "/crm/customer-journey",
+        path: "/customer-journey",
         icon: Target,
         keywords: ["customer experience", "touchpoints", "journey mapping", "user flow"],
       },
       {
         name: "Segments",
-        path: "/crm/segments",
+        path: "/segments",
         icon: Users,
         keywords: ["customer segments", "groups", "targeting", "audience"],
       },
       {
         name: "VIP Clients",
-        path: "/crm/vip-clients",
+        path: "/vip-clients",
         icon: UserCheck,
         keywords: ["important customers", "high value", "premium", "priority"],
       },
       {
         name: "Behavioral Analysis",
-        path: "/crm/behavioral-analysis",
+        path: "/behavioral-analysis",
         icon: Brain,
         keywords: ["customer behavior", "patterns", "insights", "actions"],
       },
       {
         name: "Geolocation",
-        path: "/crm/geolocation",
+        path: "/geolocation",
         icon: Map,
         keywords: ["maps", "location", "geographic", "regional"],
       },
       {
         name: "Reports",
-        path: "/crm/reports",
+        path: "/reports",
         icon: FileBarChart,
         keywords: ["reporting", "documents", "analysis", "summaries"],
       },
       {
         name: "Predictive Insights",
-        path: "/crm/predictive-insights",
+        path: "/predictive-insights",
         icon: Lightbulb,
         keywords: ["forecasting", "predictions", "trends", "future"],
       },
       {
         name: "Marketing",
-        path: "/crm/marketing",
+        path: "/marketing",
         icon: Megaphone,
         keywords: ["promotion", "advertising", "campaigns", "outreach"],
       },
       {
         name: "Templates",
-        path: "/crm/templates",
+        path: "/templates",
         icon: Palette,
         keywords: ["message templates", "email templates", "designs", "layouts"],
       },
@@ -175,55 +175,55 @@ const navigationItems = [
     items: [
       {
         name: "Create Campaign",
-        path: "/crm/campaigns/create",
+        path: "/campaigns/create",
         icon: Calendar,
         keywords: ["new campaign", "start campaign", "marketing", "promotion"],
       },
       {
         name: "Add Customer",
-        path: "/crm/customers/create",
+        path: "/customers/create",
         icon: Users,
         keywords: ["new customer", "add client", "create contact"],
       },
       {
         name: "Create Email",
-        path: "/crm/email-marketing/create",
+        path: "/email-marketing/create",
         icon: Mail,
         keywords: ["new email", "compose", "newsletter", "broadcast"],
       },
       {
         name: "Create Social Post",
-        path: "/crm/social-media/create",
+        path: "/social-media/create",
         icon: MessageSquare,
         keywords: ["new post", "social media", "facebook", "twitter", "instagram"],
       },
       {
         name: "Create Content",
-        path: "/crm/content-manager/create",
+        path: "/content-manager/create",
         icon: FileText,
         keywords: ["new content", "article", "blog post", "media"],
       },
       {
         name: "Create Segment",
-        path: "/crm/segments/create",
+        path: "/segments/create",
         icon: Users,
         keywords: ["new segment", "customer group", "audience", "targeting"],
       },
       {
         name: "Create Report",
-        path: "/crm/reports/create",
+        path: "/reports/create",
         icon: FileBarChart,
         keywords: ["new report", "generate report", "analysis", "data"],
       },
       {
         name: "Create Template",
-        path: "/crm/templates/create",
+        path: "/templates/create",
         icon: Palette,
         keywords: ["new template", "design template", "message format"],
       },
       {
         name: "Create Email Subscriber",
-        path: "/crm/email-marketing/subscribers/create",
+        path: "/email-marketing/subscribers/create",
         icon: Mail,
         keywords: ["add subscriber", "new contact", "mailing list"],
       },
@@ -234,31 +234,31 @@ const navigationItems = [
     items: [
       {
         name: "Business Details",
-        path: "/crm/settings/business-details",
+        path: "/settings/business-details",
         icon: Briefcase,
         keywords: ["company", "organization", "profile", "business information"],
       },
       {
         name: "Social Handles",
-        path: "/crm/settings/social-handles",
+        path: "/settings/social-handles",
         icon: Globe,
         keywords: ["social media accounts", "facebook", "twitter", "instagram", "linkedin"],
       },
       {
         name: "User Preferences",
-        path: "/crm/settings/user-preferences",
+        path: "/settings/user-preferences",
         icon: Users,
         keywords: ["account", "profile", "preferences", "personal settings"],
       },
       {
         name: "API Integrations",
-        path: "/crm/settings/api-integrations",
+        path: "/settings/api-integrations",
         icon: Settings,
         keywords: ["connections", "apis", "third-party", "integrations"],
       },
       {
         name: "Compliance Settings",
-        path: "/crm/settings/compliance",
+        path: "/settings/compliance",
         icon: Shield,
         keywords: ["gdpr", "ccpa", "privacy", "legal", "data protection"],
       },
@@ -452,34 +452,34 @@ export function Search() {
                   <LayoutDashboard className="mr-2 h-4 w-4" />
                   <span>Dashboard</span>
                 </CommandItem>
-                <CommandItem onSelect={() => handleSelect("/crm/customers")}>
+                <CommandItem onSelect={() => handleSelect("/customers")}>
                   <Users className="mr-2 h-4 w-4" />
                   <span>Customers</span>
                 </CommandItem>
-                <CommandItem onSelect={() => handleSelect("/crm/campaigns")}>
+                <CommandItem onSelect={() => handleSelect("/campaigns")}>
                   <Calendar className="mr-2 h-4 w-4" />
                   <span>Campaigns</span>
                 </CommandItem>
-                <CommandItem onSelect={() => handleSelect("/crm/notifications")}>
+                <CommandItem onSelect={() => handleSelect("/notifications")}>
                   <Bell className="mr-2 h-4 w-4" />
                   <span>Notifications</span>
                 </CommandItem>
-                <CommandItem onSelect={() => handleSelect("/crm/whatsapp")}>
+                <CommandItem onSelect={() => handleSelect("/whatsapp")}>
                   <Smartphone className="mr-2 h-4 w-4" />
                   <span>WhatsApp</span>
                 </CommandItem>
               </CommandGroup>
               <CommandSeparator />
               <CommandGroup heading="Quick Actions">
-                <CommandItem onSelect={() => handleSelect("/crm/campaigns/create")}>
+                <CommandItem onSelect={() => handleSelect("/campaigns/create")}>
                   <Calendar className="mr-2 h-4 w-4" />
                   <span>Create Campaign</span>
                 </CommandItem>
-                <CommandItem onSelect={() => handleSelect("/crm/social-media/create")}>
+                <CommandItem onSelect={() => handleSelect("/social-media/create")}>
                   <MessageSquare className="mr-2 h-4 w-4" />
                   <span>Create Social Post</span>
                 </CommandItem>
-                <CommandItem onSelect={() => handleSelect("/crm/settings/compliance")}>
+                <CommandItem onSelect={() => handleSelect("/settings/compliance")}>
                   <Shield className="mr-2 h-4 w-4" />
                   <span>Compliance Settings</span>
                 </CommandItem>

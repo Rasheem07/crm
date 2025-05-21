@@ -47,7 +47,7 @@ export default function CreateContentPage() {
     <div className="flex-1 p-8">
       <div className="flex items-center mb-6">
         <Button variant="ghost" size="icon" asChild className="mr-2">
-          <Link href="/crm/content-manager">
+          <Link href="/content-manager">
             <ArrowLeft className="h-4 w-4" />
           </Link>
         </Button>
@@ -307,7 +307,7 @@ export default function CreateContentPage() {
             </Button>
           ) : (
             <Button variant="outline" asChild>
-              <Link href="/crm/content-manager">Cancel</Link>
+              <Link href="/content-manager">Cancel</Link>
             </Button>
           )}
           {selectedTab !== "settings" ? (

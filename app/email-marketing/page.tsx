@@ -173,7 +173,7 @@ export default function EmailMarketingPage() {
             <Filter className="h-4 w-4" />
           </Button>
           <Button asChild>
-            <Link href="/crm/email-marketing/create">
+            <Link href="/email-marketing/create">
               <Plus className="mr-2 h-4 w-4" /> Create Campaign
             </Link>
           </Button>
@@ -337,7 +337,7 @@ export default function EmailMarketingPage() {
           </div>
           <div className="flex justify-center mt-4">
             <Button asChild>
-              <Link href="/crm/templates/create">
+              <Link href="/templates/create">
                 <Plus className="mr-2 h-4 w-4" /> Create Template
               </Link>
             </Button>
@@ -375,7 +375,7 @@ export default function EmailMarketingPage() {
           </div>
           <div className="flex justify-center mt-4">
             <Button asChild>
-              <Link href="/crm/email-marketing/subscribers/create">
+              <Link href="/email-marketing/subscribers/create">
                 <Plus className="mr-2 h-4 w-4" /> Create List
               </Link>
             </Button>

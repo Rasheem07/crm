@@ -84,7 +84,7 @@ export default function NotificationsPage() {
                 <div>
                   <h3 className="text-sm font-medium text-muted-foreground mb-3">Today</h3>
                   <div className="space-y-4">
-                    <Link href="/crm/notifications/review/1" className="block">
+                    <Link href="/notifications/review/1" className="block">
                       <div className="flex items-start gap-4 p-4 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                         <div className="bg-primary/10 p-2 rounded-full">
                           <Star className="h-5 w-5 text-primary" />
@@ -109,7 +109,7 @@ export default function NotificationsPage() {
                       </div>
                     </Link>
 
-                    <Link href="/crm/notifications/inquiry/1" className="block">
+                    <Link href="/notifications/inquiry/1" className="block">
                       <div className="flex items-start gap-4 p-4 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                         <div className="bg-primary/10 p-2 rounded-full">
                           <MessageSquare className="h-5 w-5 text-primary" />
@@ -134,7 +134,7 @@ export default function NotificationsPage() {
                       </div>
                     </Link>
 
-                    <Link href="/crm/notifications/social/1" className="block">
+                    <Link href="/notifications/social/1" className="block">
                       <div className="flex items-start gap-4 p-4 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                         <div className="bg-primary/10 p-2 rounded-full">
                           <ThumbsUp className="h-5 w-5 text-primary" />
@@ -165,7 +165,7 @@ export default function NotificationsPage() {
                 <div>
                   <h3 className="text-sm font-medium text-muted-foreground mb-3">Yesterday</h3>
                   <div className="space-y-4">
-                    <Link href="/crm/notifications/complaint/1" className="block">
+                    <Link href="/notifications/complaint/1" className="block">
                       <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-muted/50 transition-colors">
                         <div className="bg-muted p-2 rounded-full">
                           <XCircle className="h-5 w-5 text-red-500" />
@@ -190,7 +190,7 @@ export default function NotificationsPage() {
                       </div>
                     </Link>
 
-                    <Link href="/crm/notifications/subscribers/1" className="block">
+                    <Link href="/notifications/subscribers/1" className="block">
                       <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-muted/50 transition-colors">
                         <div className="bg-muted p-2 rounded-full">
                           <Users className="h-5 w-5 text-blue-500" />
@@ -218,7 +218,7 @@ export default function NotificationsPage() {
                 <div>
                   <h3 className="text-sm font-medium text-muted-foreground mb-3">Earlier This Week</h3>
                   <div className="space-y-4">
-                    <Link href="/crm/notifications/campaign/1" className="block">
+                    <Link href="/notifications/campaign/1" className="block">
                       <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-muted/50 transition-colors">
                         <div className="bg-muted p-2 rounded-full">
                           <CheckCircle2 className="h-5 w-5 text-green-500" />
@@ -240,7 +240,7 @@ export default function NotificationsPage() {
                       </div>
                     </Link>
 
-                    <Link href="/crm/notifications/maintenance/1" className="block">
+                    <Link href="/notifications/maintenance/1" className="block">
                       <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-muted/50 transition-colors">
                         <div className="bg-muted p-2 rounded-full">
                           <Clock className="h-5 w-5 text-amber-500" />

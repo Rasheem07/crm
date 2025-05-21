@@ -135,7 +135,7 @@ export default function SocialMediaPage() {
             <Filter className="h-4 w-4" />
           </Button>
           <Button asChild>
-            <Link href="/crm/social-media/create">
+            <Link href="/social-media/create">
               <Plus className="mr-2 h-4 w-4" /> Create Post
             </Link>
           </Button>

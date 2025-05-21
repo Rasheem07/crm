@@ -59,7 +59,7 @@ export default function CreateReportPage() {
   return (
     <div className="flex-1 p-8">
       <div className="flex items-center gap-2 mb-6">
-        <Link href="/crm/reports">
+        <Link href="/reports">
           <Button variant="ghost" size="icon">
             <ArrowLeft className="h-4 w-4" />
           </Button>
@@ -243,7 +243,7 @@ export default function CreateReportPage() {
               </CardContent>
               <CardFooter className="flex justify-between">
                 <Button variant="outline" asChild>
-                  <Link href="/crm/reports">Cancel</Link>
+                  <Link href="/reports">Cancel</Link>
                 </Button>
                 <div className="flex gap-2">
                   <Button variant="outline">Save as Draft</Button>

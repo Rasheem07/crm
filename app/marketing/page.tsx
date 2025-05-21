@@ -153,7 +153,7 @@ export default function MarketingPage() {
           <Button variant="outline" size="icon">
             <Filter className="h-4 w-4" />
           </Button>
-          <Link href="/crm/campaigns/create">
+          <Link href="/campaigns/create">
             <Button>
               <Plus className="mr-2 h-4 w-4" /> Create Campaign
             </Button>
@@ -449,7 +449,7 @@ export default function MarketingPage() {
             ))}
           </div>
           <div className="flex justify-center mt-4">
-            <Link href="/crm/campaigns">
+            <Link href="/campaigns">
               <Button variant="outline">View All Campaigns</Button>
             </Link>
           </div>
